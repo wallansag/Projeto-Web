@@ -10,8 +10,10 @@
   "author": "Wallans",
   "license": "MIT",
   "dependencies": {
+    "-": "^0.0.1",
     "ejs": "^3.1.10",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
   },
   "description": "",
   "repository": {

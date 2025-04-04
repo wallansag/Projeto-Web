@@ -19,13 +19,13 @@ app.use('/produtos', produtoRoutes);
 app.use('/usuarios', usuarioRoutes);
 
 
-app.get('/cadastro/produto', (req, res) => {
-  res.sendFile(path.join(__dirname, 'views', 'cadastro_produto.html'));
+app.get('/produto', (req, res) => {
+  res.sendFile(path.join(__dirname, 'views', 'produto.html'));
 });
 
 
-app.get('/cadastro/usuario', (req, res) => {
-  res.sendFile(path.join(__dirname, 'views', 'cadastro_usuario.html'));
+app.get('/usuario', (req, res) => {
+  res.sendFile(path.join(__dirname, 'views', 'usuario.html'));
 });
 
 app

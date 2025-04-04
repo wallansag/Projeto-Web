@@ -1,4 +1,4 @@
-const banco = require(`../database`)
+const banco = require(`../banco.js`)
 
 async function getAllProdutos() {
     const [rows] = await banco.query('SELECT*FROM produtos')
